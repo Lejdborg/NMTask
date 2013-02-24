@@ -22,7 +22,7 @@ Responses and errors from executions are stored in `@response` and
 `@errorMessage` respectively.
 
     NSLog(@"Response: %@", task.response);
-    NSLog(@"Error: %@", self.error);
+    NSLog(@"Error: %@", self.errorMessage);
 
 ## License
 
